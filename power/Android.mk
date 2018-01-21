@@ -15,7 +15,7 @@
 #
 
 LOCAL_PATH:= $(call my-dir)
-ifeq ($(TARGET_POWERHAL_VARIANT),lenovo) # Add check
+ifeq ($(TARGET_POWERHAL_VARIANT),qcom) # Add check
 include $(CLEAR_VARS)
 LOCAL_C_INCLUDES := $(TARGET_POWERHAL_HEADER_PATH)
 LOCAL_SRC_FILES := power.c
